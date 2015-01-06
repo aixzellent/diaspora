@@ -46,7 +46,7 @@ en:
   no_results: "No Results Found"
   _contacts: "Contacts"
   welcome: "Welcome!"
-  _terms: "terms"
+  _terms: "terms and conditions"
 
   #for reference translation, the real activerecord english transations are actually
   #in en-US, en-GB, and en-AU yml files
@@ -981,7 +981,7 @@ en:
       enter_username: "Pick a username (only letters, numbers, and underscores)"
       enter_password: "Enter a password (six character minimum)"
       enter_password_again: "Enter the same password as before"
-      hey_make: "HEY,<br/>MAKE<br/>SOMETHING."
+      hey_make: "YOUR (COPY)RIGHT,<br/>YOUR FREEDOM,<br/>QUIET SIMPLE."
       diaspora: "<3 diaspora*"
       sign_up: "SIGN UP"
       email: "EMAIL"
@@ -991,7 +991,7 @@ en:
       continue: "Continue"
       submitting: "Submitting..."
       terms: "By creating an account you accept the %{terms_link}."
-      terms_link: "terms of service"
+      terms_link: "Terms and Conditions"
     create:
       success: "You've joined diaspora*!"
     edit:

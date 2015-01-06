@@ -8,7 +8,7 @@ body > header {
   background: image-url('header-bg.png') rgb(40,35,35);
   z-index: 1001;
   padding: 6px 0;
-  color: #CCC;
+  color: $orange;
   height: 26px;
   position: fixed;
   width: 100%;
@@ -36,12 +36,11 @@ body > header {
   }
 
   a {
-    color: #CCC;
-    color: rgb(147,147,147);
+    color: $orange;
 
     &:hover {
       background: none;
-      color: $highlight-white;
+      color: $orange;
     }
   }
 
@@ -302,7 +301,7 @@ body > header {
     color: $text-grey;
 
     &:hover {
-      background-color: $blue;
+      background-color: $orange;
       color: $highlight-white;
       text-decoration: none;
     }
@@ -381,7 +380,7 @@ body > header {
       margin-right: 0.5em;
 
       a {
-        color: $blue;
+        color: $orange;
 
         &.login {
           @include border-radius(5px);

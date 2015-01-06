@@ -12,7 +12,7 @@ de:
   _home: "Startseite"
   _photos: "Fotos"
   _services: "Dienste"
-  _terms: "Bedingungen"
+  _terms: "Impressum, Nutzungs- und Datenschutzbedingungen"
   account: "Konto"
   activerecord:
     errors:
@@ -980,7 +980,7 @@ de:
       enter_password: "Gib ein Kennwort ein (mindestens sechs Zeichen)"
       enter_password_again: "Gib das gleiche Kennwort wie zuvor ein"
       enter_username: "Wähle einen Nutzernamen (nur Buchstaben, Nummern und Unterstriche)"
-      hey_make: "HEY,<br/>MACHE<br/>ETWAS."
+      hey_make: "DEINE RECHTE,<br/>DEINE FREIHEIT,<br/>GANZ EINFACH."
       join_the_movement: "Tritt der Bewegung bei!"
       password: "PASSWORT"
       password_confirmation: "PASSWORT BESTÄTIGEN"

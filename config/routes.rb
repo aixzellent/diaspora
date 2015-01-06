@@ -236,4 +236,8 @@ Diaspora::Application.routes.draw do
 
   # Startpage
   root :to => 'home#show'
+
+  # Description
+  get '/home/diasporaix', :to => 'home#diasporaix'
+  get '/home/details',    :to => 'home#details'
 end

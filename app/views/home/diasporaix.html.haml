@@ -1,0 +1,67 @@
+.container
+  %p
+    %br
+    %h1.center
+      %big
+        = link_to "diasporaix", root_path
+        - same_main_link = image_tag "diaspora_orange.png", :alt => "diaspora"
+        = link_to same_main_link, root_path
+
+  %p
+    %br
+    %hr
+  %p
+    %a{name: "aixname"}
+    .span-5.colborder
+      %h2
+        = link_to "Name", home_diasporaix_path + '#aixname'
+      %h4
+        diasporaix ist abgeleitet aus dem Open Source Produktnamen diaspora und dem französischen Namen für Aachen
+        "Aix-la-Chapelle" [ɛkslaʃapɛl], dem Ort, bzw. der Region, für die wir eine Alternative zu Facebook bieten
+        wollen.
+
+    .span-5.colborder
+      %h2
+        = link_to "Vernetzung", home_details_path + '#dezentral'
+      %h4
+        Vernetzung bildet den Kern der diaspora-Architektur. Die Idee ist nicht einen zentralen, übermächtigen Server
+        zu betreiben, sondern lokale diaspora-Angebote, wie hier z.B. diasporaix*, und die Benutzer übergreifend zu
+        vernetzen.
+        = link_to "[mehr...]", home_details_path + '#dezentral'
+
+
+    .span-5.colborder
+      %h2
+        = link_to "Kosten", home_details_path + '#kosten'
+      %h4
+        Das diasporaix System wird von
+        = link_to "aixzellent", "https://www.aixzellent.com"
+        be&shy;trie&shy;ben und gehosted. Auch wenn es sich hierbei um eine Open Source Lösung handelt, entstehen
+        hierfür Kosten, wie z.B. Miete für den Server, Kosten für den laufenden Betrieb, Back&shy;ups, Patch- und
+        Wartungs&shy;arbeiten, etc.
+        = link_to "[mehr...]", home_details_path + '#kosten'
+      %p
+
+    .span-5
+      %h2
+        = link_to "Finanzierung", home_details_path + '#finanzierung'
+      %h4
+        Das diasporaix-System soll sich durch Spenden und Entgelte kommerzieller Nutzer (Unternehmen) finanzieren.
+        Für die ersten drei Jahre hat sich
+        = link_to "aixzellent", "https://www.aixzellent.com"
+        bereit erklärt, eine etwaige Unter&shy;dec&shy;kung auszugleichen.
+        = link_to "[mehr...]", home_details_path + '#finanzierung'
+      %p
+
+  %p
+    .nl
+      %hr
+
+  %p
+    %br
+    %h1.center
+      //= link_to "Registrieren", new_user_registration_path, class: 'login'
+      = link_to "Registrieren", home_details_path + '#einladung'
+      oder
+      = link_to "Anmelden", new_user_session_path, class: 'login'
+  %p

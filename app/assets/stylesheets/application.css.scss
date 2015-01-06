@@ -71,12 +71,12 @@ header {
 }
 
 a {
-  color: $blue;
+  color: $orange;
   text: {
     decoration: none;
   };
   &:hover {
-    color: $blue;
+    color: $orange;
     text: {
       decoration: underline;
     };
